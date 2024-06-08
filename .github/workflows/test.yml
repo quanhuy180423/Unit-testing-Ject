@@ -14,4 +14,4 @@ jobs:
           node-version: "14"
       - run: npm install
       - name: Run Tests
-        run: npx jest ./fibonacci.test.js
+        run: npx jest ./fibonacciDDT.test.js
